@@ -20,7 +20,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: ;
+  height: auto;
 }
 
 .container {
@@ -150,6 +150,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: auto;
+  display: flex;
 }
 
 .site-nav-contact .nav-item:not(:last-child) {
@@ -161,12 +163,21 @@ img {
   margin-bottom: 32px;
 }
 
-.site-nav-contact {
-  margin-left: auto;
-  display: flex;
+.site-nav-envelopes {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.site-nav-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
-.
+.site-nav-smartphone :hover {
+  color: var(--accent-color);
+}
+
 /* style contact */
 
 .site-nav-mail:hover,
@@ -236,31 +247,20 @@ img {
   flex-wrap: wrap;
 }
 
-.features-about::before {
-  content: "";
-  display: block;
-  height: 120px;
-}
-
-.antenna::before {
-  background-image: url(../images/Group1.svg);
-}
-
-.clock::before {
-  background-image: url(../images/Group2.svg);
-}
-
-.computer::before {
-  background-image: url(../images/Group3.svg);
-}
-.cosmonaut::before {
-  background-image: url(../images/Group4.svg);
-}
 .features .features-about {
   width: 270px;
 }
 
+.features-pictures {
+  width: 270px;
+  height: 120px;
+  padding: 25px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+}
+
 .features-title {
+  margin-top: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -268,7 +268,7 @@ img {
 
 .title {
   font-weight: 400;
-  fon50pxt-size: 14px;
+  font-size: 14px;
   line-height: 1.7;
   color: var(--main-color-text);
   margin-top: 0;
@@ -314,6 +314,48 @@ img {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  height: 428px;
+}
+
+.sectiont-social-list {
+  width: 270px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.social-item {
+  padding: 0;
+  border: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.social-item:hover {
+  background-color: var(--accent-color);
+}
+
+.section-social:hover {
+  fill: #ffffff;
+}
+
+.section-social {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-insta {
+  margin-left: 32px;
+  margin-right: 10px;
+}
+
+.social-twittet {
+  margin-right: 10px;
 }
 
 .section-title-team {
@@ -330,6 +372,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .section-profession {
@@ -339,7 +383,7 @@ img {
   text-align: center;
   color: var(--main-color-text);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 /* Особливості Filters  */
@@ -418,6 +462,23 @@ img {
   margin-bottom: 0;
 }
 
+/* --------Постійні клієнти--------- */
+
+.client-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.client-list {
+  display: flex;
+}
+
+.client-about {
+}
 /* Footer styling */
 
 .footer {
