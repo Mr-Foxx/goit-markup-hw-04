@@ -323,11 +323,17 @@ img {
 
 .sectiont-social-list {
   width: 270px;
-
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.social-work {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .social-item {
@@ -337,6 +343,7 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
 }
 
 .social-item:hover {
@@ -348,18 +355,10 @@ img {
 }
 
 .section-social {
+  margin: 12px;
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-}
-
-.social-insta {
-  margin-left: 32px;
-  margin-right: 10px;
-}
-
-.social-twittet {
-  margin-right: 10px;
 }
 
 .section-title-team {
@@ -417,6 +416,8 @@ img {
 .button .button-lyst:hover,
 .button .button-lyst:focus {
   color: var(--accent-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* PORTFOLIO */
@@ -491,6 +492,8 @@ img {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .client-about:hover {
   fill: var(--accent-color);
@@ -560,7 +563,7 @@ img {
   margin-bottom: 20px;
 }
 
-.aaa {
+.footer-title {
   display: flex;
 }
 
