@@ -164,28 +164,22 @@ img {
 }
 
 .site-nav-envelopes {
-  fill: #757575;
+  fill: currentColor;
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 .site-nav-smartphone {
-  fill: #757575;
+  fill: currentColor;
   width: 10px;
   height: 16px;
   margin-right: 10px;
 }
-.site-nav-envelopes:hover {
-  fill: var(--accent-color);
-}
-.site-nav-smartphone:hover {
-  fill: var(--accent-color);
-}
 
 /* style contact */
 
-.site-nav-mail:hover,
-.site-nav-mail:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--accent-color);
 }
 .site-nav-mail,
@@ -193,6 +187,12 @@ img {
   text-decoration: none;
   color: var(--main-color-text);
 }
+
+.site-nav-mail:hover,
+.site-nav-mail:focus {
+  color: var(--accent-color);
+}
+
 .site-nav-tel:hover,
 .site-nav-tel:focus {
   color: var(--accent-color);
@@ -329,6 +329,11 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.social-ul {
+  padding: 0;
+  margin: 0;
+}
+
 .social-work {
   justify-content: center;
   margin: 0;
@@ -344,10 +349,12 @@ img {
   width: 44px;
   height: 44px;
   margin-right: 10px;
+  color: #afb1b8;
 }
 
 .social-item:hover {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .section-social:hover {
@@ -358,7 +365,7 @@ img {
   margin: 12px;
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .section-title-team {
@@ -480,6 +487,11 @@ img {
   margin-bottom: 50px;
 }
 
+.client-ul {
+  padding: 0;
+  margin: 0;
+}
+
 .client-list {
   justify-content: space-between;
   display: flex;
@@ -497,6 +509,7 @@ img {
 }
 .client-about:hover {
   fill: var(--accent-color);
+  border: solid 1px var(--accent-color);
 }
 
 /* Footer styling */
@@ -550,6 +563,11 @@ img {
 
 .join {
   margin-left: 70px;
+}
+
+.join-ul {
+  padding: 0;
+  margin: 0;
 }
 
 .join-title {
