@@ -178,10 +178,6 @@ img {
 
 /* style contact */
 
-.nav-item:hover,
-.nav-item:focus {
-  color: var(--accent-color);
-}
 .site-nav-mail,
 .site-nav-tel {
   text-decoration: none;
@@ -577,7 +573,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-
   margin-bottom: 20px;
 }
 
